@@ -1,0 +1,80 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* Main color : #087f5b
+  Grey : #343a40
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+.container {
+
+}
+header {
+    background-color: #FFADAD;
+
+}
+.header-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+}
+
+.header-container-inner{
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 8vh;
+    margin-bottom: 52px;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 44px;
+    font-weight: 700;
+}
+.btn:link,
+.btn:visited {
+
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: #343a40;
+    padding: 16px 32px;
+}
+
+strong {
+    display: block;
+    color: white;
+}
+.svg {
+    width: 600px;
+    height: 600px;
+
+}
