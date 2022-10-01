@@ -78,19 +78,46 @@ strong {
    width: 700px;
 
 }
+
+
+@media screen and (max-width: 1875px) {
+    h1 { font-size: 3rem;}
+    .svg {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1453px) {
+    h1 { font-size: 3rem;}
+    .svg {
+        width: 300px;
+    }
+    .header-container { gap :40px;}
+
+
+}
+
+
+
+
+@media screen and (max-width: 1353px) {
+    h1 { font-size: 3rem;}
+}
+
 @media only screen and (max-width:992px){
-    .header-container { gap :0;}
 }
 @media screen and (max-width: 768px) {
     h1 { font-size: 3rem;}
     .svg {
         width: 300px;
+        height: 300px;
     }
-
 }
 
-@media screen and (max-width: 1353px) {
+@media screen and (max-height: 740px) {
     h1 { font-size: 3rem;}
-
+    .svg {
+        width: 300px;
+        height: 150px;
+    }
 }
-
