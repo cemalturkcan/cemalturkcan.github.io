@@ -33,21 +33,22 @@ header {
 }
 .header-container {
     height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    padding: 50px;
+    flex-wrap: wrap;
 }
 
 .header-container-inner{
     display: flex;
     justify-content: center;
-
     flex-direction: column;
 }
 
 h1 {
-    font-size: 8vh;
+    font-size: 7rem;
     margin-bottom: 52px;
     font-weight: 700;
 }
@@ -74,7 +75,22 @@ strong {
     color: white;
 }
 .svg {
-    width: 600px;
-    height: 600px;
+   width: 700px;
 
 }
+@media only screen and (max-width:992px){
+    .header-container { gap :0;}
+}
+@media screen and (max-width: 768px) {
+    h1 { font-size: 3rem;}
+    .svg {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 1353px) {
+    h1 { font-size: 3rem;}
+
+}
+
